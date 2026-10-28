@@ -130,17 +130,25 @@ Parola terminalde gösterilmeden alınır. Bu bilgiler yalnızca yerel demo içi
 
 ### Uygulama Görselleri
 
-Görseller, izole demo veritabanlarında gerçek uygulama işlevlerinden alınmış konsol çıktısı örnekleridir:
+Görseller, demo müşteri hesabıyla uygulamanın gerçek konsol akışlarından alınmıştır. Ödeme ve hesap hareketleri yerel demo veritabanındaki örnek işlemlerdir; gerçek banka işlemi değildir.
 
-#### Ödeme planı teklifleri
+#### Borç sorgulama
 
-![Demo ödeme planı teklifleri](screenshots/payment-plan-offers.png)
+![Demo müşterinin borç hesapları ve borç kırılımı](screenshots/debt_informations.png)
 
-#### Bakiye ve işlem geçmişi
+#### Ödeme planı teklifleri ve özel plan oluşturma
 
-![Demo hesap hareketi ve kalan bakiye](screenshots/account-activity.png)
+![Demo ödeme planı teklifleri](screenshots/payment_plan_offers.png)
 
-Bu ekranlar gerçek bir bankacılık arayüzü veya gerçek banka işlemi değildir; uygulamanın terminal çıktısını gösterir.
+![İstenen taksit sayısıyla özel plan teklifi oluşturma ve kaydetme](screenshots/creating_payment_plan.png)
+
+![İzin verilen azami vadeyi aşan teklifin reddedilmesi](screenshots/payment_plan_offers_2.png)
+
+#### Ödeme ve hesap hareketleri
+
+![Peşinat ödemesi ve güncel hesap hareketi](screenshots/debt_payment_and_transaction_details.png)
+
+![Vadesi gelmemiş taksit ödemesinin engellenmesi](screenshots/debt_payment_blocked.png)
 
 ---
 
